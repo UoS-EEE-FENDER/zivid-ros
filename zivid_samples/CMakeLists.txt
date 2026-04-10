@@ -67,6 +67,9 @@ zivid_add_python_sample(sample_hand_eye_calibration)
 zivid_add_python_sample(sample_infield_correction)
 zivid_add_python_sample(sample_projection)
 zivid_add_python_sample(sample_project_and_capture)
+zivid_add_python_sample(capture_assistant)
+zivid_add_python_sample(calibration)
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
