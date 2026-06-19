@@ -1,9 +1,9 @@
 # Initial setup for matching IP
 
 ```bash
-sudo ip addr flush dev enxf8e43bbd9331
-sudo ip addr add 172.31.1.10/24 dev enxf8e43bbd9331
-sudo ip link set enxf8e43bbd9331 up
+sudo ip addr flush dev [interface_name]
+sudo ip addr add 172.31.1.137/24 dev [interface_name]
+sudo ip link set [interface_name] up
 ```
 
 enxf8e43bbd9331 is interface, change this accordingly
