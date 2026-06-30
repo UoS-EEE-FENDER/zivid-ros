@@ -31,7 +31,7 @@ Settings:
           Enabled: __not_set__
         Pixel: all
   Diagnostics:
-    Enabled: yes
+    Enabled: no
   Engine: phase
   Processing:
     Color:
@@ -46,8 +46,8 @@ Settings:
       Cluster:
         Removal:
           Enabled: yes
-          MaxNeighborDistance: 4.5
-          MinArea: 460
+          MaxNeighborDistance: 5
+          MinArea: 350
       Experimental:
         ContrastDistortion:
           Correction:
@@ -71,16 +71,16 @@ Settings:
           Enabled: no
       Outlier:
         Removal:
-          Enabled: no
+          Enabled: yes
           Threshold: 20
       Reflection:
         Removal:
-          Enabled: yes
+          Enabled: no
           Mode: global
       Smoothing:
         Gaussian:
           Enabled: yes
-          Sigma: 3.25
+          Sigma: 4
     Resampling:
       Mode: disabled
   RegionOfInterest:
@@ -96,4 +96,3 @@ Settings:
   Sampling:
     Color: __not_set__
     Pixel: all
-
